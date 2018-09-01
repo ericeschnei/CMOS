@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lwjgl-glfw-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-glfw-natives-macos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-glfw.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-natives-macos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-openal-natives-macos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-openal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-opengl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-opengles-natives-macos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-stb-natives-macos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-stb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-glfw-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-openal-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-opengles-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CMOS/libs/lwjgl-stb-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

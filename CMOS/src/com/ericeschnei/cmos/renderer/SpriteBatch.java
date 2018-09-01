@@ -23,7 +23,7 @@ public class SpriteBatch {
 
     private SpriteBatch() {
         sprites = new LinkedList<>();
-        sheet = Texture.loadTexture("assets/ss.png");
+    sheet = Texture.loadTexture("CMOS/assets/ss.png");
         sheet.bind();
     }
 
