@@ -1,7 +1,13 @@
-package com.ericeschnei.cmos.breadboard.logicobject;
-
-import java.util.List;
-
 public abstract class LogicObject {
-    public abstract List<LogicObject> parse();
+    private LogicObject(){};
+
+    public static LogicObject newInstance(GOType GO){
+        return LogicObject();
+    };
+    
+    public Status getNodeStatus(int pin){};
+
+    public LogicNode getNode(int pin){};
+
+    public void addConnection(LogicObject l, int fromPin, int myPin){};
 }
