@@ -1,4 +1,6 @@
-public class TransistorLogic implements LogicObject {
+package com.ericeschnei.cmos.breadboard.logicobject;
+
+public class TransistorLogic extends LogicObject {
     public static int PMOS = 0;
     public static int NMOS = 1;
 
@@ -6,6 +8,7 @@ public class TransistorLogic implements LogicObject {
     private int myType;
 
     private TransistorLogic(int type) {
+        super();
         nodes = new LogicNode[3];
         nodes[PinType.INPUT.getPin()] = LogicNode.newInstance();
         nodes[PinType.OUTPUT.getPin()] = LogicNode.newInstance();
@@ -30,8 +33,13 @@ public class TransistorLogic implements LogicObject {
         t1.getNode(fromPin).addConnection(this.getNode(myPin));
     }
 
+    @Override
+    public void addConnection(LogicObject l, int fromPin, int myPin) {
+        //TODO
+    }
+
     public void update() {
-        
+        //TODO
     }
 
 }

@@ -9,7 +9,7 @@ import java.util.LinkedList;
 public class GameCoordinateList {
     private GameCoordinate[] elems;
     private LinkedList<GameCoordinate> wire;
-    GameObject parentWire;
+    private GameObject parentWire;
 
     public GameCoordinateList() {
         elems = new GameCoordinate[5];

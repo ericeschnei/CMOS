@@ -1,3 +1,5 @@
+package com.ericeschnei.cmos.breadboard.logicobject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +8,7 @@ public class LogicNode {
     private Status myStatus;
 
     private LogicNode() {
-        myConnections = new ArrayList<LogicNode>();
+        myConnections = new ArrayList<>();
         myStatus = Status.LOW;
     }
     
@@ -22,7 +24,7 @@ public class LogicNode {
         return myConnections;
     }
 
-    public bool updateStatus() {
+    public boolean updateStatus() {
         int[] statusCount = new int[3];
         for(int a = 0; a < 3; a++)
             statusCount[a] = 0;
@@ -51,7 +53,7 @@ public class LogicNode {
         return true;
     }
 
-    public status getStatus() {
+    public Status getStatus() {
         return myStatus;
     }
 }

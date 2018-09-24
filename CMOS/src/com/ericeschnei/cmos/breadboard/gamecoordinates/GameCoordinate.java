@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public abstract class GameCoordinate {
     private GameObject parent;
     private int textureX, textureY, width, height;
-    private float r,g,b,a;
+    protected float r,g,b,a;
     private int priority;
     private byte rotation;
 

@@ -1,13 +1,18 @@
+package com.ericeschnei.cmos.breadboard.logicobject;
+
+import com.ericeschnei.cmos.breadboard.gameobject.GOType;
+
 public abstract class LogicObject {
-    private LogicObject(){};
+    protected LogicObject(){}
 
     public static LogicObject newInstance(GOType GO){
-        return LogicObject();
+        // TODO
+        return null;
     };
     
-    public Status getNodeStatus(int pin){};
+    public abstract Status getNodeStatus(int pin);
 
-    public LogicNode getNode(int pin){};
+    public abstract LogicNode getNode(int pin);
 
-    public void addConnection(LogicObject l, int fromPin, int myPin){};
+    public abstract void addConnection(LogicObject l, int fromPin, int myPin);
 }
